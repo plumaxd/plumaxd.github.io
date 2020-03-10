@@ -76,7 +76,6 @@ main {
 }
 
 .about-me:hover {
-    border-bottom: 1.5px solid #c31432;
     transition: .1s;
 }
 
