@@ -1,8 +1,22 @@
 @font-face {
-    font-family: Quicksand;
-    src: url(/assets/fonts/Quicksand_Bold.otf);
+    font-family: Avenir Light;
+    src: url(../fonts/AvenirNextLTPro-UltLt.otf);
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url(../fonts/AvenirNextLTPro-Regular.otf);
+    font-style: normal;
     font-weight: 400;
-    font-style: normal
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(../fonts/Quicksand_Bold.otf);
+    font-style: normal;
+    font-weight: 500;
 }
 
 body {
@@ -29,9 +43,10 @@ main {
 }
 
 .logo {
-    padding: 15px;
-    width: 70%;
+    padding: 12.5px 0px 0px;
+    width: 25%;
     float: left;
+    align-self: center;
 }
 
 .menu ul li {
@@ -45,7 +60,7 @@ main {
     text-decoration: none;
     font-size: 18px;
     text-transform: uppercase;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: Quicksand
 }
 
 .menu {
@@ -53,7 +68,8 @@ main {
     width: 30%;
     padding: 2px;
     font-family: Quicksand;
-    margin-top: 10px;
+    margin-top: 8px;
+    margin-left: 40%;
 }
 
 .about-me {
@@ -78,4 +94,35 @@ main {
 .git a:hover {
     color: #c31432;
     transition: .3s;
+}
+
+h1 {
+    font-weight: lighter;
+    font-size: 26px;
+    color: #fff;
+    text-align: center;
+    padding-top: 180px;
+    padding-right: 300px;
+    margin-bottom: 0;
+    font-family: Quicksand;
+}
+
+p {
+    font-weight: lighter;
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    padding-right: 300px;
+    margin-bottom: 0;
+    font-family: Quicksand;
+}
+
+.typed {
+    font-weight: lighter;
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    padding-right: 320px;
+    margin-bottom: 0;
+    font-family: Quicksand;
 }
