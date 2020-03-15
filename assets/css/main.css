@@ -94,7 +94,7 @@ main {
     transition: .3s;
 }
 
-h1 {
+.intro {
     font-weight: lighter;
     font-size: 26px;
     color: #fff;
@@ -105,7 +105,7 @@ h1 {
     font-family: Quicksand;
 }
 
-p {
+.name {
     font-weight: lighter;
     font-size: 60px;
     color: #fff;
@@ -121,6 +121,47 @@ p {
     color: #fff;
     text-align: center;
     padding-right: 320px;
+    margin-bottom: 0;
+    font-family: Quicksand;
+}
+
+.aboutme {
+    background-color: #fff;
+    height: 420px;
+    width: 100%;
+}
+
+.title {
+    font-weight: lighter;
+    font-size: 60px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 0;
+    font-family: Quicksand;
+}
+
+.barra {
+    height: 30px;
+    width: 100%;
+    background: linear-gradient(90deg, #c31432, #240b36);
+}
+
+.descript {
+    margin: 15px 50px;
+    font-weight: lighter;
+    font-size: 22px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 0;
+    font-family: Quicksand;
+}
+
+.dream {
+    margin: 15px 50px;
+    font-weight: lighter;
+    font-size: 22px;
+    color: #000000;
+    text-align: center;
     margin-bottom: 0;
     font-family: Quicksand;
 }

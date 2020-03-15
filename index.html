@@ -9,9 +9,10 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href=assets/css/hover-min.css rel=stylesheet>
+    <link rel="stylesheet" href="/assets/css/aos.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
 
     <link rel="stylesheet" href="/assets/css/bootstrap/bootstrap.css" type="text/css">
-
 </head>
 
 <body>
@@ -23,18 +24,59 @@
                 </div>
                 <div class="menu">
                     <ul>
-                        <li class="about-me"><a href="#aboutme" class="hvr-shrink">Who I am</a></li>
-                        <li class="git"><a href="https://github.com/plumaxd"><i class="hvr-shrink fa fa-github-alt"></i></a></li>
+                        <li class="about-me"><a href="#aboutme" class="hvr-shrink">Who am I</a></li>
+                        <li class="git"><a href="https://github.com/plumaxd"><i
+                                    class="hvr-shrink fa fa-github-alt"></i></a></li>
                         <li class="insta"><a href="https://www.instagram.com/tiko.lo/"><i
                                     class="hvr-shrink fa fa-instagram"></i></a></li>
                     </ul>
                 </div>
             </div>
-            <h1>Hi, I'm</h1>
-            <p>Antonio Carlos</p>
+            <div data-aos=fade-down data-aos-duration=700 data-aos-once=true>
+                <h1 class="intro">Hi, I'm</h1>
+            </div>
+            <div data-aos=fade-down data-aos-duration=700 data-aos-once=true>
+                <p class="name">Antonio Carlos</p>
+            </div>
             <h2 class="typed">I'm <span class="type"></span></h2>
         </main>
     </header>
+    <div class="barra"></div>
+    <section class="" id="aboutme">
+        <div class="aboutme">
+            <div data-aos=fade-down data-aos-duration=1200 data-aos-once=true>
+                <p class="title">Who Am I?</p>
+            </div>
+            <div data-aos=fade-left data-aos-duration=1200 data-aos-once=true>
+                <h1 class="descript">
+                    Well, if you got here, you really want to know about me.
+                    My name, as said up there, is Antonio Carlos.
+                    I'm co-founder of the future largest startup in Brazil, Zyo ltda. And Currently, I study Software
+                    Engineering at Ucsal. My personal tastes are very cliché,
+                    I think, playing football, watching series and movies, playing games, going to the beach, going out,
+                    and several common things that young people do today.
+                </h1>
+            </div>
+            <div data-aos=fade-right data-aos-duration=1200 data-aos-once=true>
+                <h1 class="dream">
+                    My dream is to be free. To explain it better, I want to have the freedom to do what I want and when
+                    I want, you know? Like Danbilzerian or any other rich man you have today. You must be wondering: "Ok
+                    Tiko (Yes, it's my nickname), but how do you intend to achieve this?". My answer today for you would be: "I
+                    don't know, but I will work as much as I can with the things I most like to do for it". Well, I know it won't be
+                    easy, but I want it.
+                    I believe that with entrepreneurship (which, after all, is the thing I love to do and learn the
+                    most) and with programming knowledge I get there. I have my goals: Millionaire until 22 and
+                    Independent and free until 30, you can write it down! :P
+                </h1>
+            </div>
+        </div>
+    </section>
+    <footer>
+
+
+
+        
+    </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
@@ -59,6 +101,11 @@
             loop: true, // Default value
             smartBackspace: true
         });
+    </script>
+    <script src='assets/js/aos.js'></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
     </script>
 </body>
 

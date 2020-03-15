@@ -10,7 +10,10 @@
   <g id="back1" transform="translate(-713 -482)">
     <rect id="fade" width="1920" height="1080" transform="translate(713 482)"/>
     <rect id="Imagem_6" data-name="Imagem 6" width="1920" height="1281" transform="translate(713 482)" opacity="0.33" fill="url(#pattern)"/>
-    <circle id="Elipse_1" data-name="Elipse 1" cx="142" cy="142" r="142" transform="translate(854 738)" fill="url(#pattern-2)"/>
+    <g id="Elipse_1" data-name="Elipse 1" transform="translate(854 738)" stroke="#000" stroke-width="3" fill="url(#pattern-2)">
+      <circle cx="142" cy="142" r="142" stroke="none"/>
+      <circle cx="142" cy="142" r="140.5" fill="none"/>
+    </g>
     <rect id="Retângulo_3" data-name="Retângulo 3" width="1920" height="66" transform="translate(713 482)" fill="#000001"/>
   </g>
 </svg>
